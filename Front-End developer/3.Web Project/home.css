@@ -1,0 +1,456 @@
+body{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    color: rgb(36, 175, 76);
+    justify-content: space-between;
+    background-color: rgba(241, 241, 241, 0.538);
+    padding: 5px;
+
+}
+nav a{
+    display:inline-table;
+    margin: 5px;
+    color: rgb(36, 175, 76);
+    text-decoration:none;
+}
+.nv{
+    margin: 20px;
+}
+.navLogo{
+    display: none;
+}
+@media screen and (max-width:700px) {
+    nav{
+        display: flex;
+    }
+    nav a{
+        display: flex;
+    }
+    .navLogo{
+        display: flex;
+        margin: 10px;
+    }
+    .navLogo button{
+        border: none;
+        cursor: pointer;
+    }
+    .navLogo img{
+        width: 30px;
+        height: 30px;
+    }
+    .nv{
+        display: none;
+    }
+}
+
+#dv1{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    border-radius: 12px;
+}
+#txtbox{
+    padding-top: 150px;
+    background-color: rgba(241, 241, 241, 0.538);
+    color: rgb(36, 175, 76);
+    padding-bottom: 150px;
+}
+#txtbox button{
+    padding: 15px;
+    margin-top: 20px;
+    color: rgb(36, 175, 76);
+    background-color: rgba(241, 241, 241, 0.889);
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+
+}
+.img1 img{
+   width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    margin: -100px;
+}
+@media screen and (max-width:700px) {
+   .img1 img{
+    width: 40%;
+    height: 40%;
+   }
+}
+#dv2{
+    padding-top: 150px;
+    display: flex;
+    color: rgb(28, 131, 57);
+}
+
+#dv2 section{
+    padding: 10%;
+}
+#dv2 section h2{
+    color: rgb(39, 181, 79);
+
+}
+#dv2 section p{
+font-size: 13px;
+}
+#dv2 section button{
+    padding: 15px;
+    margin-top: 20px;
+    color: rgb(36, 175, 76);
+    background-color: rgba(241, 241, 241, 0.889);
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+}
+
+#dv2 aside {
+    width: 560px;
+    height: 500px;
+    padding-left: 10%;
+    background-image: url('https://i.pinimg.com/564x/a0/c9/44/a0c944f86a2cbd9a4dbe80b248278fd7.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#dv2 aside:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#dv2 aside #img2{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    margin: 15%;
+}
+
+@media screen and (max-width:700px) {
+    #dv2{
+        display: block;
+        justify-content: center;
+
+    }
+    #dv2 aside{
+        width: 90%;
+    }
+    #dv2 aside #img2{
+      
+        margin: 40%;
+    }
+}
+
+#dv3{
+    padding-top: 110px;
+    text-align: center;
+    color: rgb(55, 192, 93);
+}
+#dv3 p{
+    color: rgb(28, 131, 57);
+
+}
+#d33{
+    display: flex;
+    padding-top: 50px;
+}
+.cards{
+    display: block;
+    margin: 40px;
+    padding: 10px;
+}
+.card{
+    padding: 20px;
+}
+.logo1{
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width:1050px) {
+    #d33{
+        display:block;
+    }
+    #d33 #img3 img{
+        width: 95%;
+        height: 50%;
+    }
+}
+
+#dv4{
+    padding-top: 100px;
+    display: flex;
+}
+#dv4 article{
+    padding-left: 20px ;
+}
+#dv4 article img{
+    border-radius: 20px;
+}
+#dv4 section{
+    padding-top: 120px;
+    padding-left: 40px;
+    color: rgba(161, 190, 197, 0.889);
+}
+#dv4 section h2{
+   font-size: 30px;
+}
+#dv4 section p{
+    font-size: 15px;
+ }
+ #dv4 section button{
+    padding: 15px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgba(161, 190, 197, 0.889);
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+ }
+
+ @media screen and (max-width:700px) {
+    #dv4{
+        display:block;
+    }
+    #dv4 article img{
+    width: 95%;
+    height: 50%;
+    }
+}
+
+ #dv5{
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(55, 192, 93);
+ }
+ .cards2{
+    display: flex;
+    padding-top: 40px;
+
+ }
+ .card2{
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+ }
+ .card2 p{
+    margin: 30px;
+ }
+ .card2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:700px) {
+    .cards2{
+        display:block;
+    }
+}
+
+#dv6{
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(55, 192, 93);
+
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cards4 {
+    display: flex;
+}
+
+.card4 {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.card4 img {
+    width: 60%;
+    height: 500px;
+}
+.card4 button{
+    padding: 15px;
+    margin: 30px;
+    color: white;
+    background-color: rgba(78, 196, 103, 0.499);
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+}
+.card4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    left: 10px;
+
+}
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    right: 10px;
+
+}
+
+@media (max-width: 768px) {
+    .card4 {
+        display: block;
+        min-width: 100%; /* Two cards visible */
+    }
+}
+
+@media (max-width: 480px) {
+    .card4 {
+        display: block;
+        min-width: 100%; /* One card visible */
+    }
+}
+
+.cards5{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.card5{
+    margin-left: 20px;
+}
+.card5 img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius:50% ;
+}
+.card5 img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card5 h3{
+    padding-top: 20px;
+    color: rgb(55, 192, 93);
+    box-shadow: 0 5px 5px rgba(11, 11, 11, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 30px;
+}
+.card5 p{
+    padding-top: 20px;
+    color: rgb(55, 192, 93);
+  
+}
+@media screen and (max-width:700px) {
+    .cards5{
+        display:block;
+    }
+    .card5 img{
+        width: 30%;
+        height: 30%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        border-radius:50% ;
+    }
+}
+
+#dv8{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+#txtbox1{
+    padding: 15%;
+    color: rgb(55, 192, 93);
+}
+#dv8 article{
+    margin-right: 15%;
+}
+#dv8 article button{
+    padding: 15px;
+    margin: 30px;
+    color: white;
+    background-color: rgba(78, 196, 103, 0.499);
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+#dv8 .q p{
+    display: none;
+}
+#dv8 article button:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#Up{
+    bottom: 40px;
+    right: 50px;
+    border-radius: 50%;
+    position: fixed;
+}
+#Up img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    padding-top: 100px;
+    color: rgb(36, 175, 76);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(241, 241, 241, 0.538);
+}
+.cards6{
+    margin: 20px;
+}
+.cards6 div input{
+    border: none;
+    border-radius: 12px;
+}
+.cards6 div button{
+    padding: 15px;
+    margin: 30px;
+    color: white;
+    background-color: rgba(78, 196, 103, 0.499);
+    border-radius: 12px;
+    border: none;
+}
+.cards6 div a img{
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width:700px) {
+    footer{
+        display:block;
+    }
+}
